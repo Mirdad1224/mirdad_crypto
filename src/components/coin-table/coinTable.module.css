@@ -1,0 +1,33 @@
+.tableWrapper{
+    overflow-x: auto;
+}
+
+.dark{
+    background-color: #5B4B8A;
+}
+
+
+.table{
+    padding: 1rem .4rem;
+    overflow-x: auto;
+    margin: 6rem auto 3rem auto;
+    width: 90%;
+    max-width: 1200px;
+    
+}
+
+.table th{
+    padding: .5rem 0rem;
+    text-align: right;
+    border-bottom: 1px solid rgb(212, 196, 196);
+}
+
+.table th:first-child,.table th:nth-child(2){
+    text-align: left;
+}
+
+.pagination{
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+}

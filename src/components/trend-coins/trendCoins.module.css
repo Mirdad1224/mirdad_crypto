@@ -1,0 +1,40 @@
+.trend{
+    width: 90%;
+    margin: 5rem auto;
+    box-shadow: 1px 1px 12px 4px rgb(0 0 0 / 20%);
+    padding: 1rem;
+    max-width: 1200px;
+}
+
+.dark{
+    background-color: #151965;
+}
+
+.trend p{
+    text-align: center;
+    margin-top: 1rem;
+    color: brown;
+}
+
+.dark p{
+    color: azure;
+}
+
+.trendTitle{
+    display: flex;
+    align-items: center;
+    color: cornflowerblue;
+    margin: 1rem 0;
+}
+
+.dark .trendTitle{
+    color: azure;
+}
+
+
+.trendTitle h3{
+    margin: 0 1rem;
+    color: darkgray;
+}
+
+

@@ -1,0 +1,72 @@
+.chartWrapper{
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkgray;
+    height: 5rem;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.dark{
+    color: blue;
+}
+
+
+
+.selection{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.selection div{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+
+}
+
+.selection div span{
+    background-color: #fff;
+    padding: .5rem;
+    border-radius: .3rem;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.selection div span:hover{
+    background-color: bisque;
+}
+
+.chart{
+    margin: 3rem auto;
+    width: 70%;
+}
+.darkChart{
+    border-radius: .5rem;
+    padding: 1rem;
+    background-color: #150050;
+    color: azure;
+}
+
+@media  screen and (max-width: 768px) {
+    .chart{
+        width: 90%;
+    }
+    .selection div span{
+        font-size: .7rem;
+        padding: .2rem;
+    }
+}
+
+@media  screen and (max-width: 500px) {
+    .chart{
+        width: 95%;
+    }
+    .selection div span{
+        padding: .1rem;
+    }
+}

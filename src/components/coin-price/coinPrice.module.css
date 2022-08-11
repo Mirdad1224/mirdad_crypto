@@ -1,0 +1,52 @@
+.priceWrapper{
+    box-shadow: 1px 3px 5px 6px rgba(0, 0, 0, .2);
+    border-radius: .5rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    color: rgb(112, 91, 91);
+}
+
+.dark{
+    background-color: #151965;
+    color: azure;
+}
+
+.priceWrapper div{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+}
+
+.priceWrapper h2{
+    border: 0;
+    text-align: center;
+}
+
+.badge{
+    max-width: 5rem !important;
+}
+
+
+@media screen and (max-width:768px) {
+    .priceWrapper div{
+        width: 95%;
+        font-size: .8rem;
+    }
+    
+}
+
+@media screen and (max-width:500px) {
+    .priceWrapper div{
+        font-size: .7rem;
+    }
+    .badge{
+        max-width: 4rem !important;
+    }
+    
+}

@@ -1,0 +1,22 @@
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+.info h2{
+    margin-bottom: 1rem;
+}
+
+.info p{
+    margin: 2rem 0;
+    font-size: 18px;
+    line-height: 32px;
+}

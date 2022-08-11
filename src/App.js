@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import Footer from "./components/footer/Footer";
+import Navbar from "./components/navbar/Navbar";
+import routes from "./routes";
+import {UserThemeContext} from './store/ThemeContext'
+
+import { useRoutes } from "react-router-dom";
+import { useContext } from "react";
 
 function App() {
+
+  const userTheme = useContext(UserThemeContext)
+
+  let router = useRoutes(routes);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div
+      className={`${
+        userTheme.theme === "dark" ? 'darkTheme' : ""
+      }`}>
+        <Navbar />
+        {router}
+        <Footer />
+      </div>
   );
 }
 

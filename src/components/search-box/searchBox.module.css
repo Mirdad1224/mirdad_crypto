@@ -1,0 +1,10 @@
+.search{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: .45rem;
+}
+
+.dark{
+    background-color: #f0e7db;
+}

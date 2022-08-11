@@ -1,0 +1,11 @@
+.coinData{
+    margin: 5rem auto;
+    width: 95%;
+    max-width: 1200px;
+}
+
+.crypto{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
